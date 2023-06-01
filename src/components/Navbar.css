@@ -1,0 +1,31 @@
+.navbar-container{
+	margin: 0;
+	padding: 1rem 0rem;
+	font-size: 1.2rem;
+	background-color: black;
+	opacity: 0.8;
+	position: fixed;/*navbar stays at fixed position*/
+	display: flex;
+	justify-content: space-between;
+	top: 0;
+	left: 0;/*so that the nav bar will*/
+	right: 0;/*occupy complete top position*/
+}
+.navbar-title a{
+	color: rgb(255, 0, 195);
+	margin: 0;
+	text-decoration: none;
+	padding: 0 1rem;
+}
+.navbar-components a{
+	color: aqua;
+	margin: 0;
+	text-decoration: none;
+	padding: 0 1rem;
+}
+.navbar-components a:hover{
+	color: rgb(255, 0, 195);
+}
+.navbar-title a:hover{
+	color: aqua;
+}
