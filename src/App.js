@@ -2,7 +2,7 @@ import React from 'react'
 import {Routes, Route} from 'react-router-dom'
 import Mainpage from './pages/Mainpage'
 import Contactpage from './pages/Contactpage'
-import Aboutpage from './pages/Aboutpage'
+
 const App = () => {
   return (
 	<Routes>
