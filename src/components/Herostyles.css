@@ -1,0 +1,15 @@
+
+.hero-container{
+	height: 100vh;
+	width: 100%;
+	align-items: center;
+}
+
+.intoimg{
+	height: 100vh;
+	width: 100%;
+}
+.hero-content{
+	transform: translate(0, -55vh);
+	align-items: center;
+}
