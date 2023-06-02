@@ -8,8 +8,14 @@ const Herosection = () => {
     <img src={HeroImg} alt="HeroImage" className='intoimg'/>
     </div>
     <div className='hero-content'>
-      <p>I'm Cholleti Sai Shashank</p>
-      <h1>Front-End Developer</h1>
+      <div className='row'>
+        <div className='col'></div>
+        <div className='col-6' align="center">
+          <p className='hero-para'>I'm Cholleti Sai Shashank</p>
+          <h1 className='hero-head'>Front-End Developer</h1>
+        </div>
+        <div className='col'></div>
+      </div>
     </div>
   </div>
   )
